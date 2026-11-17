@@ -1,0 +1,25 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地运行产物
+*.log
+.workbuddy/
+
+# 压缩包（发布产物不入库）
+*.zip
+
+# 敏感配置：切勿提交填好 token 的脚本副本
+config.local.py
+.env
+*.secret
+scripts/create_ticket.local.py
